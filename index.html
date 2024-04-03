@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hfhfhhfd/style.css">
+    <script src="./calculator.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="calculator">
+        <input id="display" type="">
+    
+        <div class="calculator-keys">
+            
+            <button onclick="appendToDisplay('+')" class="key--operator" data-action="add">+</button>
+            <button onclick="appendToDisplay('-')" class="key--operator" data-action="subtract">-</button
+            <button class="key--operator" data-action="multiply"></button>
+            <button onclick="clearDisplay()" class="key--operator" data-action="clear">C</button>
+            <button onclick="appendToDisplay('&times;')" class="key--operator" data-action="multiply">&times;</button>
+            <button onclick="appendToDisplay('/')" class="key--operator" data-action="divide">/</button
+            <button class="key--operator" data-action="multiply"></button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')" data-action="decimal">.</button>
+            <button onclick="memoryAdd()" class="key--operator" data-action="memory-add">M+</button>
+            <button onclick="memoryClear()" class="key--operator" data-action="memory-clear">MC</button>
+            <button onclick="autoClear()" class="key--operator" data-action="auto-clear">AC</button>
+            <button onclick="calculateResult()" class="key--equal" data-action="calculate">=</button>
+        </div>
+
+    </form> 
+</body>
+</html>
